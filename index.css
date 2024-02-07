@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    width:100%;
+    height:100vh;
+    background-image: url("https://i.pinimg.com/564x/db/2e/7d/db2e7d1b07965eb8c7e6dde8b94d7cd2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    background: white;
+    box-shadow: 0 0 10px teal;
+    width:40%;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    
+}
+
+.card-img-container img{
+    width:350px;
+  /**  height:350px;**/
+    margin-right: 190px;
+}
+.card-login {
+    width:200px;
+    background: white;
+    box-shadow: 0 0 10px black;
+    border-radius: 4px;
+    margin-right:-400px;
+
+
+}
+.login-header{
+    padding:10px;
+    margin:10px;
+   margin-bottom: -15px;
+}
+.login-header span{
+      font-size: 20px;
+      font-weight:1000;
+      text-align: center; 
+
+}
+.card-login{
+    width:60%;
+    margin-left:-100px;
+
+}
+.card-login p{
+    font-size: 14px;
+    position:relative;
+}
+.card-login p #underline{
+
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.login-content{
+    margin:10px;
+    padding:10px;
+    margin-top: 2px;
+
+}
+.login-content-span{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.login-content-span input{
+    width:100%;
+    height:30px;
+    border:none;
+    padding-left:10px;
+    border:none;
+    border-radius: 5px;
+    outline:1px  #7c7c7c;
+    margin-top: 5px;
+    transition:0.1s;
+    overflow: hidden;
+}
+.login-content-span input:hover{
+    transform:scale(1.1);
+}
+.login-content-span input:focus{
+    outline:2px solid green;    
+}
+.login-content-forgot span{ 
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: underline;
+    transition:0.8;
+}
+.login-content-forgot span:hover{
+    transform:scale(0.9);
+}
+.login-content-check{
+    font-size: 14px;
+}
+.login-content-check input{
+    margin:5px;
+}
+.login-action{
+    padding:10px;
+    display:flex;
+    justify-content: center;
+}
+/** .login-action input{
+    color: red; 
+} **/
+.login-action button{
+    width:80px;
+    height:30px;
+    padding:0;
+    font-size: 15px;
+    font-weight: 200;
+    background-color:crimson;
+    color: white;
+    align-items: center;
+    border: 0 ;
+    border-radius: 5px;
+    cursor: pointer;
+  /**  transition:0.1s ; **/
+}
+.login-action button:hover{
+     transform:scale(1.1);
+}
+.login-action button:active{
+   transform: scale(0.9);
+}
